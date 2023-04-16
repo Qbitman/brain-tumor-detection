@@ -6,7 +6,6 @@
 }
 
 .home,
-.predict,
 .about,
 .sign-up {
   display: flex;
@@ -16,13 +15,29 @@
 }
 
 .predict {
-  background-image: url('/images/img-9.jpg');
+  display: flex;
+  height: 90vh;
+  padding: 9rem 0px 5rem 5rem;
+}
+
+.predict {
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.8) 100%), url('/images/img-9.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
 }
 
+.UploadBox  {
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  box-sizing: border-box;
+}
 
 .about {
   background-image: url('/images/img-1.jpg');
@@ -33,14 +48,6 @@
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
 .heading {
   margin-bottom: 20px;
 }
