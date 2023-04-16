@@ -17,7 +17,7 @@
 .predict {
   display: flex;
   height: 90vh;
-  padding: 9rem 0px 5rem 5rem;
+  padding: 4rem 0px 5rem 5rem;
 }
 
 .predict {
@@ -27,6 +27,44 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+}
+
+.outputCard {
+  height: 520px;
+  width: 450px;
+  padding: 20px;
+  margin-left: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.imageSize {
+  width: 400px;
+  height: 400px;
+}
+
+.uploadedImage {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+.outputText {
+  margin-left: 90px;
+  margin-top: 20px;
+}
+
+.tumor-label {
+  font-weight: bold;
+  color: red;
+}
+
+.healthy-label {
+  font-weight: bold;
+  color: #90EE90;
 }
 
 .UploadBox  {

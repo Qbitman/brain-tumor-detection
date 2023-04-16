@@ -30,7 +30,7 @@ function Navbar() {
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             NeuroScope.ai
-            <i class='fas fa-brain fa-sm' />
+            <i className='fas fa-brain fa-sm' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
