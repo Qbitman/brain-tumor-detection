@@ -6,8 +6,7 @@
 }
 
 .home,
-.about,
-.sign-up {
+.about {
   display: flex;
   height: 90vh;
   align-items: center;

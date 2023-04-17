@@ -35,12 +35,6 @@ function Cards() {
               label='Type 2'
               path='/about'
             />
-            <CardItem
-              src='images/img-8.png'
-              text='Pituitary tumors'
-              label='Type 3'
-              path='/sign-up'
-            />
           </ul>
         </div>
       </div>
